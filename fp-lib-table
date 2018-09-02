@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name C64_PWR)(type KiCad)(uri "$(KIPRJMOD)/C64_PWR.pretty")(options "")(descr ""))
+)
