@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP POWER
+D Generic screw terminal, single row, 01x02
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02
+K screw terminal
+F ~
+$ENDCMP
+#
+#End Doc Library
