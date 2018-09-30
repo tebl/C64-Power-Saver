@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP OUTPUT
-D Generic screw terminal, single row, 01x02
+D Generic screw terminal, single row, 01x04
 K screw terminal
 F ~
 $ENDCMP
@@ -14,6 +14,12 @@ $ENDCMP
 #
 $CMP Screw_Terminal_01x02
 D Generic screw terminal, single row, 01x02
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x04
+D Generic screw terminal, single row, 01x04
 K screw terminal
 F ~
 $ENDCMP

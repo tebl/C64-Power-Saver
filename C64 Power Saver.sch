@@ -263,112 +263,14 @@ Wire Wire Line
 Wire Wire Line
 	5200 4125 5200 4275
 Connection ~ 5200 4275
-$Comp
-L VCC #PWR02
-U 1 1 5B8BE9DD
-P 10075 700
-F 0 "#PWR02" H 10075 550 50  0001 C CNN
-F 1 "VCC" H 10075 850 50  0000 C CNN
-F 2 "" H 10075 700 50  0001 C CNN
-F 3 "" H 10075 700 50  0001 C CNN
-	1    10075 700 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10075 700  10075 825 
-Wire Wire Line
-	9950 825  10200 825 
-$Comp
-L POWER J1
-U 1 1 5B8BFF1C
-P 10400 825
-F 0 "J1" H 10400 925 50  0000 C CNN
-F 1 "5V_INPUT" H 10400 625 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10400 825 50  0001 C CNN
-F 3 "" H 10400 825 50  0001 C CNN
-	1    10400 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L OUTPUT J2
-U 1 1 5B8BE0D9
-P 10400 1250
-F 0 "J2" H 10400 1350 50  0000 C CNN
-F 1 "5V_OUTPUT" H 10400 1050 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10400 1250 50  0001 C CNN
-F 3 "" H 10400 1250 50  0001 C CNN
-	1    10400 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 5B8C250E
-P 9900 1350
-F 0 "#PWR03" H 9900 1100 50  0001 C CNN
-F 1 "GND" H 9900 1200 50  0000 C CNN
-F 2 "" H 9900 1350 50  0001 C CNN
-F 3 "" H 9900 1350 50  0001 C CNN
-	1    9900 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Screw_Terminal_01x02 J3
-U 1 1 5B8C3D4A
-P 8250 925
-F 0 "J3" H 8250 1025 50  0000 C CNN
-F 1 "9VAC_INPUT" H 8250 725 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8250 925 50  0001 C CNN
-F 3 "" H 8250 925 50  0001 C CNN
-	1    8250 925 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x02 J4
-U 1 1 5B8C3DC4
-P 8250 1425
-F 0 "J4" H 8250 1525 50  0000 C CNN
-F 1 "9VAC_OUTPUT" H 8250 1225 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8250 1425 50  0001 C CNN
-F 3 "" H 8250 1425 50  0001 C CNN
-	1    8250 1425
-	-1   0    0    1   
-$EndComp
 Text GLabel 5200 1675 1    60   Output ~ 0
 5V_OUT
 Text GLabel 1625 1675 1    60   Input ~ 0
 5V_IN
-Text GLabel 9950 825  0    60   Output ~ 0
-5V_IN
-Connection ~ 10075 825 
-Text GLabel 10075 1475 3    60   Input ~ 0
-5V_OUT
-Wire Wire Line
-	10075 1475 10075 1350
-Wire Wire Line
-	10075 1350 10200 1350
-Wire Wire Line
-	9900 925  9900 1350
-Wire Wire Line
-	9900 925  10200 925 
-Wire Wire Line
-	10200 1250 9900 1250
-Connection ~ 9900 1250
-Text GLabel 8575 825  2    60   BiDi ~ 0
+Text GLabel 7400 725  0    60   BiDi ~ 0
 9VAC_1
-Wire Wire Line
-	8450 825  8575 825 
-Text GLabel 8575 1425 2    60   BiDi ~ 0
-9VAC_1
-Wire Wire Line
-	8450 1325 8575 1325
-Text GLabel 8575 925  2    60   BiDi ~ 0
+Text GLabel 7400 825  0    60   BiDi ~ 0
 9VAC_2
-Text GLabel 8575 1325 2    60   BiDi ~ 0
-9VAC_2
-Wire Wire Line
-	8450 1425 8575 1425
-Wire Wire Line
-	8450 925  8575 925 
 $Comp
 L DIN-7 J5
 U 1 1 5B8CBE3E
@@ -381,10 +283,10 @@ F 3 "" H 10075 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR02
 U 1 1 5B8CC381
 P 10075 3075
-F 0 "#PWR04" H 10075 2825 50  0001 C CNN
+F 0 "#PWR02" H 10075 2825 50  0001 C CNN
 F 1 "GND" H 10075 2925 50  0000 C CNN
 F 2 "" H 10075 3075 50  0001 C CNN
 F 3 "" H 10075 3075 50  0001 C CNN
@@ -415,4 +317,38 @@ Wire Wire Line
 	4750 2850 5550 2850
 Wire Wire Line
 	5550 2850 5550 3375
+Wire Wire Line
+	7400 725  7575 725 
+Wire Wire Line
+	7400 825  7575 825 
+Text GLabel 7400 925  0    60   Input ~ 0
+5V_OUT
+$Comp
+L GND #PWR03
+U 1 1 5BB0E370
+P 7400 1125
+F 0 "#PWR03" H 7400 875 50  0001 C CNN
+F 1 "GND" H 7400 975 50  0000 C CNN
+F 2 "" H 7400 1125 50  0001 C CNN
+F 3 "" H 7400 1125 50  0001 C CNN
+	1    7400 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 925  7575 925 
+Wire Wire Line
+	7575 1025 7400 1025
+Wire Wire Line
+	7400 1025 7400 1125
+$Comp
+L OUTPUT J?
+U 1 1 5BB0E936
+P 7775 825
+F 0 "J?" H 7775 1025 50  0000 C CNN
+F 1 "OUTPUT" H 7775 525 50  0000 C CNN
+F 2 "" H 7775 825 50  0001 C CNN
+F 3 "" H 7775 825 50  0001 C CNN
+	1    7775 825 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
