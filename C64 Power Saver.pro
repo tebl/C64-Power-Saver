@@ -1,4 +1,4 @@
-update=30/09/2018 16:01:33
+update=16/10/2018 00:01:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,8 +60,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=screw_terminal
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,3 +70,5 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
