@@ -28,5 +28,6 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | R1,R2,R4,R5  | 470 ohm resistor                      |     4 |
 | R3           | 2k2 ohm (2200) resistor               |     1 |
 | BZ1          | 5v active buzzer, 7.6mm pin spacing   |     1 |
-| NA           | 4-core wire                           |   (1) |
-| NA           | 7pin manle DIN plug                   |   (1) |
+|              | 4-core wire                           |   (1) |
+|              | 7pin manle DIN plug                   |   (1) |
+|              | 70x45x30mm electronic project box     |   (1) |
