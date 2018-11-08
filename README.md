@@ -3,7 +3,7 @@ This is a project I started a few years back after buying the components to buil
 
 Why you'd need one in the first place, you say? Basically, Commodore intended the computer to live a maximum of 5-6 years and so the components chosen reflected this - no thought went into considering what happens past this point. Now that it's 30 years later we know that the 5v regulator has a tendency to short out input and output voltage, meaning that those sensitive 5v chips will intermittenly, or sometimes even permanently, end up getting something like two or three times that... enough to melt that precious silicon! Your options are either to get a brand new power supply or combine your old one with a C64 power saver for as long as that'll still be around, running unprotected is simply foolish these days!
 
-How does it work? The design is based on the one developed by famed C64-tinkerer Ray Carlsen, what it does is monitor the 5v line coming from your power supply and when it starts outputting voltages above 5.6v a relay is slammed shut and the line is cut. You have the option of mounting a buzzer to the board so that you can get annoyed at it until you realize it's time to buy or build a new PSU, or when mounted externally you can look at the nice LEDs to figure out wether your supply is good or not. Once a PSU has started to go bad, put a "Bad PSU" sticker on it and never use it again!
+How does it work? The design is based on the one developed by famed C64-tinkerer Ray Carlsen, what it does is monitor the 5v line coming from your power supply and when it starts outputting voltages above 5.6v a relay is slammed shut and the line is cut. You have the option of mounting a buzzer to the board so that you can get annoyed at it until you realize it's time to buy or build a new PSU, or when mounted externally you can look at the nice LEDs to figure out wether your supply is good or not. Once a PSU has started to go bad, put a "Bad PSU" sticker on it and never use it again! For details on where to cut and solder internally on the computer see Ray Carlsens [website](http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/MOBOs/).
 
 ![Bare PCB](https://github.com/tebl/C64-Power-Saver/raw/master/gallery/2018-11-01%2023.33.07.jpg)
 ![Boxed up and connected](https://github.com/tebl/C64-Power-Saver/raw/master/gallery/2018-11-04%2021.43.31.jpg)
@@ -16,7 +16,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/W217819ASE8_RC1802_UI.html))  |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/W217819ASN17_C64_Power_Saver.html))  |     1 |
 | D1           | 1N4732A DO-35                         |     1 |
 | D2           | 1N4148 DO-35, alternatively 1N914     |     1 |
 | D3           | 5mm LED (green)                       |   (1) |
@@ -29,5 +29,5 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | R3           | 2k2 ohm (2200) resistor               |     1 |
 | BZ1          | 5v active buzzer, 7.6mm pin spacing   |     1 |
 |              | 4-core wire                           |   (1) |
-|              | 7pin manle DIN plug                   |   (1) |
+|              | 7pin male DIN plug                    |   (1) |
 |              | 70x45x30mm electronic project box     |   (1) |
