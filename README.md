@@ -16,7 +16,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/W217819ASN17_C64_Power_Saver.html))  |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/W217819ASN17_C64_Power_Saver.html?inviteid=88707))  |     1 |
 | D1           | 1N4732A DO-35                         |     1 |
 | D2           | 1N4148 DO-35, alternatively 1N914     |     1 |
 | D3           | 5mm LED (green)                       |   (1) |
@@ -31,3 +31,5 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 |              | 4-core wire                           |   (1) |
 |              | 7pin male DIN plug                    |   (1) |
 |              | 70x45x30mm electronic project box     |   (1) |
+
+Please use the order link above when signing up to help me support this project, I'll get a small discount on future orders and hopefully that means I can afford to keep developing new and exciting modules in the future. By using the URL you won't have to deal with the rather daunting order forms for PCB fabrication, but if you want to go that route they'll probably want a zipped-up copy of the files in the export-directory!
