@@ -297,11 +297,10 @@ Wire Wire Line
 	10075 3075 10075 2950
 NoConn ~ 10375 2650
 NoConn ~ 9775 2650
-NoConn ~ 10375 2750
-Text GLabel 9675 2750 0    60   Output ~ 0
+Text GLabel 9600 2750 0    60   Output ~ 0
 5V_IN
 Wire Wire Line
-	9675 2750 9775 2750
+	9600 2750 9775 2750
 Text GLabel 9675 2550 0    60   BiDi ~ 0
 9VAC_1
 Text GLabel 10500 2550 2    60   BiDi ~ 0
@@ -368,4 +367,21 @@ Connection ~ 5550 4275
 Wire Wire Line
 	5800 2850 5800 3900
 Connection ~ 5550 2850
+Wire Wire Line
+	9700 2750 9700 3300
+Wire Wire Line
+	9700 3300 10450 3300
+Wire Wire Line
+	10450 3300 10450 2750
+Wire Wire Line
+	10450 2750 10375 2750
+Connection ~ 9700 2750
+Text Notes 7325 7500 0    60   ~ 0
+Commodore 64 Power Saver
+Text Notes 7025 6850 0    60   ~ 0
+Based on the external power saver designs made by Ray Carlsen, this adds a few LEDs\nfor visual feedback as well as an annoying buzzer. PCB has been designed to use\ncommon and easily available parts, including electronic project boxes.
+Text Notes 10550 7650 0    60   ~ 0
+B
+Text Notes 8125 7650 0    60   ~ 0
+2019-07-31
 $EndSCHEMATC
