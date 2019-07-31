@@ -897,7 +897,7 @@
   (segment (start 102.87 92.71) (end 104.14 91.44) (width 0.25) (layer F.Cu) (net 8) (tstamp 5BB0CC9B))
   (segment (start 104.14 91.44) (end 104.14 85.725) (width 0.25) (layer F.Cu) (net 8) (tstamp 5BB0CC9D))
   (segment (start 104.14 85.725) (end 102.235 83.82) (width 0.25) (layer F.Cu) (net 8) (tstamp 5BB0CC9F))
-  (segment (start 81.28 72.47) (end 81.28 74.93) (width 1) (layer F.Cu) (net 9) (status 800000))
+  (segment (start 81.28 72.47) (end 81.28 74.93) (width 1) (layer F.Cu) (net 9))
   (segment (start 77.43 82.47) (end 77.43 72.47) (width 1) (layer B.Cu) (net 9))
   (segment (start 77.43 72.47) (end 81.28 72.47) (width 1) (layer F.Cu) (net 9))
   (segment (start 81.28 72.47) (end 87.71 72.47) (width 1) (layer F.Cu) (net 9) (tstamp 5BE44BE2))
