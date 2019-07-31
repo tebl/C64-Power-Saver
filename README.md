@@ -9,7 +9,7 @@ How does it work? The design is based on the one developed by famed C64-tinkerer
 ![Boxed up and connected](https://github.com/tebl/C64-Power-Saver/raw/master/gallery/2018-11-04%2021.43.31.jpg)
 
 ## Errata
-**Revision D**
+**Revision C/D**
 It has come to my attention that some original Commodore 64 power supplies were wired differently, specifically sometimes 5v would be supplied on the opposite pin - this is easily fixed by connecting a small piece of wire across DIN pins 4 and 5. Refer to this [image](https://github.com/tebl/C64-Power-Saver/raw/master/gallery/revision_d_fix.PNG), the board outline is shown from above and the wire you need to add is the green one.
 
 # Schematic
